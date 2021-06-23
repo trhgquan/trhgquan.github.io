@@ -5,12 +5,15 @@
     <link rel="shortcut icon" href="assets/quan.ico" type="image/x-icon">
     <title>Quan, Tran Hoang</title>
     <style>
-    .body{font-family:monospace;}.shitpost{color:transparent}.header{margin-bottom:10px}
-    .content{word-wrap:break-word;width:755px}.navigation{font-size: 150%;font-weight: bold;}
+    body{font-family:monospace;}.header{margin-bottom:10px}
+    .content{word-wrap:break-word;width:755px}.shitpost{color:transparent}
+    .navigation{font-size: 150%;font-weight: bold;}
+    .bad-eye{background-color:#000;color:#FFF;}
+    .good-eye{background-color:#FFF;color:#000;}
     </style>
   </head>
 
-  <body>
+  <body class="good-eye">
     <div class="header">
       <h1>Quan, Tran Hoang</h1>
       Currently a Computer Science student at the 
@@ -20,7 +23,8 @@
     <div class="navigation">
       <!-- Links -->
       <a href="resume.html" target="_blank">Resume</a> |
-      <a href="https://chumeochuixoong.blogspot.com" target="_blank">Blog</a>
+      <a href="https://chumeochuixoong.blogspot.com" target="_blank">Blog</a> |
+      <button id="lightSwitch">Turn the light off</button>
     </div>
     
     <div class="content">
@@ -47,5 +51,15 @@
         This page is sooo boring? Correct! The owner of this page is the same, too.
       </p>
     </div>
+
+    <!-- Always place JavaScripts before closing body -->
+    <script type="text/javascript">
+    document.getElementById('lightSwitch').addEventListener('click', function() {
+      let bodyElement = document.getElementsByTagName('body')[0];
+      bodyElement.className = (bodyElement.className == 'good-eye') ? 'bad-eye' : 'good-eye';
+      this.innerText = (bodyElement.className == 'good-eye') ? 
+        'Turn the light off' : 'Turn the light on';
+    });
+    </script>
   </body>
 </html>
