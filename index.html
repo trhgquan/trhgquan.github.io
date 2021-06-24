@@ -1,47 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Quan, Tran Hoang landing page">
     <link rel="shortcut icon" href="assets/quan.ico" type="image/x-icon">
     <title>Quan, Tran Hoang</title>
     <style>
     *{font-family:monospace;}.header{margin-bottom:10px;}
-    .header,.content{word-wrap:break-word;width:755px;}.shitpost{color:transparent;}
-    .navigation{font-size: 150%;font-weight: bold;}
-    .bad-eye{background-color:#000;color:#FFF;}
-    .bad-eye h1, .bad-eye a{color:#00FF00;}
-    .good-eye{background-color:#FFF;color:#000;}
+    .navigation{font-size: 150%;font-weight: bold;}.shitpost{color:transparent;}
+    .good-eye{background-color:#000;color:#FFF;}
+    .good-eye h1, .good-eye a{color:#00FF00;}
+    .bad-eye{background-color:#FFF;color:#000;}
+    @media screen and (min-width:760px){.content,.header{word-wrap:break-word;width:755px}}
     </style>
   </head>
 
-  <body class="good-eye">
+  <body class="bad-eye">
     <div class="header">
       <h1>Quan, Tran Hoang</h1>
-      Currently a Computer Science student at the
-      <a href="https://en.hcmus.edu.vn" target="_blank">VNUHCM - University of Science</a>.
+      <p>
+        copyleft supporter; vim user; retarded writer;
+      </p>
+      
     </div>
 
     <div class="navigation">
       <!-- Links -->
-      <a href="resume.html" target="_blank">Resume</a> |
-      <a href="https://chumeochuixoong.blogspot.com" target="_blank">Blog</a> |
+      <a href="resume.html" rel="noreferrer" target="_blank">Resume</a> |
+      <a href="https://chumeochuixoong.blogspot.com" rel="noreferrer" target="_blank">Blog</a> |
       <button id="lightSwitch">Turn the light off</button>
     </div>
 
     <div class="content">
       <p>
+        Coding since 2015, currently a Computer Science student at the
+        <a href="https://en.hcmus.edu.vn" rel="noreferrer" target="_blank">VNUHCM - University of Science</a>;
+        Planned to become a BSc. in Computer Science in 2023. 
+      </p>
+      <p>  
+        Have some experiences in web developing (using PHP, JavaScript);
+        participated in some projects using C/C++, Python 3, Java.
+      </p>
+      <p>
         Sometimes you might find me "jumping" around GitHub as a contributor. In fact, I spend
         a lot of time on GitHub, mostly in private repositories and have some "research" in GitHub Actions.
-        <a href="https://github.com/trhgquan" target="_blank">Check out my GitHub here</a>.
+        <a href="https://github.com/trhgquan" rel="noreferrer" target="_blank">Check out my GitHub here</a>.
       </p>
       <p>
         I'm also interested in Software Automation (correctly Game Automation) with
-        <a href="https://www.autoitscript.com" target="_blank">AutoIt</a>.
+        <a href="https://www.autoitscript.com" rel="noreferrer" target="_blank">AutoIt</a>.
         The point is I can't share most of my products since they involve some currently active games.
       </p>
       <p>
         This page is inspired by old-style (actually no-style) websites back in the 90s.
-        Here is <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Never gonna give you up - Rick Astley</a>.
+        Here is <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" rel="noreferrer">
+          Never gonna give you up - Rick Astley</a>.
         Happy coding!
       </p>
     </div>
@@ -56,8 +70,8 @@
     <script type="text/javascript">
     document.getElementById('lightSwitch').addEventListener('click', function() {
       let bodyElement = document.getElementsByTagName('body')[0];
-      bodyElement.className = (bodyElement.className == 'good-eye') ? 'bad-eye' : 'good-eye';
-      this.innerText = (bodyElement.className == 'good-eye') ?
+      bodyElement.className = (bodyElement.className == 'bad-eye') ? 'good-eye' : 'bad-eye';
+      this.innerText = (bodyElement.className == 'bad-eye') ?
         'Turn the light off' : 'Turn the light on';
     });
     </script>
