@@ -6,10 +6,11 @@
     <link rel="shortcut icon" href="assets/quan.ico" type="image/x-icon">
     <title>Quan, Tran Hoang</title>
     <style>
-    body{font-family:monospace;}.header{margin-bottom:10px}
-    .content{word-wrap:break-word;width:755px}.shitpost{color:transparent}
+    *{font-family:monospace;}.header{margin-bottom:10px;}
+    .header,.content{word-wrap:break-word;width:755px;}.shitpost{color:transparent;}
     .navigation{font-size: 150%;font-weight: bold;}
     .bad-eye{background-color:#000;color:#FFF;}
+    .bad-eye h1, .bad-eye a{color:#00FF00;}
     .good-eye{background-color:#FFF;color:#000;}
     </style>
   </head>
@@ -17,28 +18,27 @@
   <body class="good-eye">
     <div class="header">
       <h1>Quan, Tran Hoang</h1>
-      Currently a Computer Science student at the 
+      Currently a Computer Science student at the
       <a href="https://en.hcmus.edu.vn" target="_blank">VNUHCM - University of Science</a>.
     </div>
-    
+
     <div class="navigation">
       <!-- Links -->
       <a href="resume.html" target="_blank">Resume</a> |
       <a href="https://chumeochuixoong.blogspot.com" target="_blank">Blog</a> |
       <button id="lightSwitch">Turn the light off</button>
     </div>
-    
+
     <div class="content">
       <p>
-        Sometimes you might found me sneaking around GitHub as a contributor.
-        In fact I wasted a lot of times into GitHub, mostly in private repositories 
-        and did some "research" in GitHub Actions.
-        <a href="https://github.com/trhgquan" target="_blank">Checkout my GitHub here</a>
+        Sometimes you might find me "jumping" around GitHub as a contributor. In fact, I spend
+        a lot of time on GitHub, mostly in private repositories and have some "research" in GitHub Actions.
+        <a href="https://github.com/trhgquan" target="_blank">Check out my GitHub here</a>.
       </p>
       <p>
-        I'm also interested in Software Automation (correctly Game Automation) with 
+        I'm also interested in Software Automation (correctly Game Automation) with
         <a href="https://www.autoitscript.com" target="_blank">AutoIt</a>.
-        The point is I can't share most of my products since they are involving some active games.
+        The point is I can't share most of my products since they involve some currently active games.
       </p>
       <p>
         This page is inspired by old-style (actually no-style) websites back in the 90s.
@@ -49,7 +49,7 @@
 
     <div class="shitpost">
       <p>
-        This page is sooo boring? Correct! The owner of this page is the same, too.
+        This page is so boring? Correct! The owner of this page is the same, too.
       </p>
     </div>
 
@@ -58,7 +58,7 @@
     document.getElementById('lightSwitch').addEventListener('click', function() {
       let bodyElement = document.getElementsByTagName('body')[0];
       bodyElement.className = (bodyElement.className == 'good-eye') ? 'bad-eye' : 'good-eye';
-      this.innerText = (bodyElement.className == 'good-eye') ? 
+      this.innerText = (bodyElement.className == 'good-eye') ?
         'Turn the light off' : 'Turn the light on';
     });
     </script>
