@@ -1,7 +1,7 @@
 {
   "name":"trhgquan",
   "short_name":"trhgquan",
-  "start_url":"../index.html",
+  "start_url":"/index.html",
   "display":"standalone",
   "description":"Description for trhgquan",
   "icons":[{
