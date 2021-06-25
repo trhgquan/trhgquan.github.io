@@ -6,7 +6,7 @@
     "assert": {
       "assertions": {
         "categories.accessibility": [
-          "error", {
+          "warning", {
             "minScore": 0.7
           }
         ],
