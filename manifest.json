@@ -29,6 +29,10 @@
     "src": "assets/touch/quan.png",
     "sizes":"192x192",
     "type":"images/png"
+  }, {
+    "src": "assets/touch/quan.png",
+    "sizes":"512x512",
+    "type":"images/png"
   }],
   "lang":"en",
   "theme_color":"#000000",
