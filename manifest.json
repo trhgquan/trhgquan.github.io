@@ -1,0 +1,41 @@
+{
+  "name":"trhgquan",
+  "short_name":"trhgquan",
+  "start_url":"/index.html",
+  "display":"standalone",
+  "description":"Description for trhgquan",
+  "icons":[{
+    "src": "assets/touch/quan.png",
+    "sizes":"48x48",
+    "type":"images/png"
+  }, {
+    "src": "assets/touch/quan.png",
+    "sizes":"72x72",
+    "type":"images/png"
+  }, {
+    "src": "assets/touch/quan.png",
+    "sizes":"96x96",
+    "type":"images/png"
+  }, {
+    "src": "assets/touch/quan.png",
+    "sizes":"144x144",
+    "type":"images/png"
+  }, {
+    "src": "assets/touch/quan.png",
+    "sizes":"168x168",
+    "type":"images/png"
+  }, {
+    "src": "assets/touch/quan.png",
+    "sizes":"192x192",
+    "type":"images/png",
+    "purpose":"maskable"
+  }, {
+    "src": "assets/touch/quan.png",
+    "sizes":"512x512",
+    "type":"images/png",
+    "purpose":"maskable"
+  }],
+  "lang":"en",
+  "theme_color":"#000000",
+  "background_color":"#000000"
+}
