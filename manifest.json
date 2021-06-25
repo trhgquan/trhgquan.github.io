@@ -19,8 +19,7 @@
   }, {
     "src": "assets/touch/quan.png",
     "sizes":"144x144",
-    "type":"images/png",
-    "purpose":"any maskable"
+    "type":"images/png"
   }, {
     "src": "assets/touch/quan.png",
     "sizes":"168x168",
@@ -28,11 +27,13 @@
   }, {
     "src": "assets/touch/quan.png",
     "sizes":"192x192",
-    "type":"images/png"
+    "type":"images/png",
+    "purpose":"maskable"
   }, {
     "src": "assets/touch/quan.png",
     "sizes":"512x512",
-    "type":"images/png"
+    "type":"images/png",
+    "purpose":"maskable"
   }],
   "lang":"en",
   "theme_color":"#000000",
