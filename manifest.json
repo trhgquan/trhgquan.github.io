@@ -1,7 +1,7 @@
 {
   "name":"trhgquan",
   "short_name":"trhgquan",
-  "start_url":".",
+  "start_url":"../index.html",
   "display":"standalone",
   "description":"Description for trhgquan",
   "icons":[{
@@ -19,7 +19,8 @@
   }, {
     "src": "assets/touch/quan.png",
     "sizes":"144x144",
-    "type":"images/png"
+    "type":"images/png",
+    "purpose":"any maskable"
   }, {
     "src": "assets/touch/quan.png",
     "sizes":"168x168",
@@ -30,6 +31,6 @@
     "type":"images/png"
   }],
   "lang":"en",
-  "theme_color":"#000",
-  "background_color":"#000"
+  "theme_color":"#000000",
+  "background_color":"#000000"
 }

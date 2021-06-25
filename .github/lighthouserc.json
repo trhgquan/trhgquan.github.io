@@ -5,12 +5,12 @@
     },
     "assert": {
       "assertions": {
-        "categories.accessibility": [
+        "categories.performance": [
           "warning", {
             "minScore": 0.7
           }
         ],
-        "categories.performance": [
+        "categories.accessibility": [
           "error", {
             "minScore": 0.7
           }
