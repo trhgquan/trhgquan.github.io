@@ -3,7 +3,7 @@ layout: home
 title: About
 ---
 
-Currently I'm a Knowledge Engineering student at [The VNUHCM - University of Science](https://en.hcmus.edu.vn), batch of 2019 and majoring in **Natural Language Processing**. I'm also planning to become a MSc. in Computer Science, focusing on **Natural Language Processing**.
+Currently, I'm a Knowledge Engineering student at [The VNUHCM - University of Science](https://en.hcmus.edu.vn), batch of 2019 and majoring in Natural Language Processing. I'm also planning to become an MSc. in Computer Science, focusing on **Natural Language Processing**.
 
 ## Research Interests
 My research topics in Natural Language Processing include:
