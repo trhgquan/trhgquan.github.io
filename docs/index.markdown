@@ -7,9 +7,8 @@ Currently I'm a Knowledge Engineering student at [The VNUHCM - University of Sci
 
 ## Research Interests
 My research topics in Natural Language Processing include:
-- **Optical Character Recognition**: build a OCR system for Vietnamese Ancient Text (Chu Nom).
+- **Optical Character Recognition**: build an OCR system for Vietnamese Ancient Text (Chu Nom).
   - [GitHub repository for my work](https://github.com/trhgquan/OCR_chu_Nom), 2022
-- **Sentiment Analysis**
 - **Text Classification**
 - **Semantic Textual Similarity**
 - **Text Correction & Suggestions.**
@@ -23,4 +22,4 @@ Beside Natural Language Processing, I have some interests in:
 C/C++, Python, PHP, JavaScript, LaTeX. View more in [my resume](resume.markdown)
 
 ## Contact
-Send me an email to quan (at) trhgquan (dot) xyz.
+Send me an email: quan (at) trhgquan (dot) xyz.
