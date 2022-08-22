@@ -1,6 +1,4 @@
 ---
-layout: page
 title: Blog
+redirect_to: https://chumeochuixoong.blogspot.com
 ---
-
-Visit my blog [here](https://chumeochuixoong.blogspot.com)
