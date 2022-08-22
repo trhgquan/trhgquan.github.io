@@ -1,6 +1,4 @@
 ---
-layout: page
 title: Resource
+redirect_to: https://sites.google.com/view/tlxuong
 ---
-
-Click [here](https://sites.google.com/view/tlxuong) to go to the resource page.
