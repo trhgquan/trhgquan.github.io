@@ -16,7 +16,7 @@ My research topics in Natural Language Processing include:
 - **Text Classification.**
 - **Semantic Textual Similarity.**
 - **Text Correction & Suggestion.**
-  - [Address Correction based on Machine Learning - BSc. Graduation thesis](#), 2023
+  - [Address Correction based on Machine Learning - BSc. Graduation thesis](/address-correction-with-ml), 2023
 
 Beside Natural Language Processing, I have some interests in:
 - **Cryptography**: currently I'm maintaining a repository (in Vietnamese) for Introduction to Cryptography (CSC15005) and Applied Cryptography (CSC15003) course materials (code, course summarise). Checkout the repository [here](https://github.com/trhgquan/crypto). Also, there is an online version [here](https://trhgquan.github.io/crypto).
