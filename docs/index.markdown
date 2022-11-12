@@ -9,7 +9,7 @@ I'm planned to graduate and receive my BSc. degree in 2023, then continue pursui
 
 Feel free to send me an email: *quan* (at) *trhgquan* (dot) *xyz*
 
-## Publifications
+## Publications
 TBD
 
 ## Research Interests
