@@ -9,11 +9,14 @@ I'm planned to graduate and receive my BSc. degree in 2023, then continue pursui
 
 Feel free to send me an email: *quan* (at) *trhgquan* (dot) *xyz*
 
+## Publifications
+TBD
+
 ## Research Interests
 My research topics in Natural Language Processing include:
 
 ### Optical Character Recognition
-I built an OCR system for Vietnamese Ancient Text (Chu Nom), using CenterNet for segmentation and simple character classification for recognition. 
+I built an character-level OCR pipeline for Vietnamese Ancient Text (Chu Nom), using CenterNet for segmentation and simple character classification for recognition. 
 
 Resources: 
 - [GitHub repository for my work](https://github.com/trhgquan/OCR_chu_Nom), Spring 2022.
@@ -21,8 +24,14 @@ Resources:
 ### Text Classification
 Mostly Sentiment Analysis and several other Text Classification tasks.
 
+Resources:
+- [GitHub repository for a Fakenews Detection](https://github.com/trhgquan/fakenews-detection), Spring 2022.
+
 ### Semantic Textual Similarity
 Mostly Sentence Paraphrase Detection.
+
+Resources:
+- [GitHub repository for a Sentence Similarity detector](https://github.com/trhgquan/sbert-sentence-similarity), Spring 2022.
 
 ### Text Correction & Suggestion
 We build an Address Correction and Suggestion engine, using simple GRU Seq2Seq and Attention mechanism.
@@ -38,5 +47,5 @@ Beside Natural Language Processing, I'm interested in:
 ## Tech
 - **Coding**: C/C++, Python (Flask, Django), PHP (Laravel), JavaScript (vanilla), Perl.
 - **Scripting**: Bash, AutoIt, Makefile.
-- **ML/DL**: TensorFlow, trax, scikit-learn.
+- **ML/DL**: TensorFlow, torch, trax, scikit-learn.
 - **Misc**: Markdown, LaTeX  and vanilla vim (my configurations are [here](https://github.com/hwangswan/dotfiles)).
