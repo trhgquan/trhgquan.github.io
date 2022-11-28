@@ -2,7 +2,6 @@
 layout: home
 title: About
 ---
-# Personal info
 
 Currently I'm a Knowledge Engineering BS-MS student at [The VNUHCM - University of Science](https://en.hcmus.edu.vn), batch of 2019, majoring in **Natural Language Processing** and working on my graduation thesis from August 2022.
 
