@@ -2,4 +2,15 @@
 layout: page
 title: Resume
 ---
-<iframe src="https://onedrive.live.com/embed?cid=83F3D0EEE59D98EE&resid=83F3D0EEE59D98EE%211975&authkey=AGPE7TYGEL98whw&em=2" frameborder="0" width="100%" height="500px" scrolling="no"></iframe>
+
+## Resume
+
+<iframe src="https://drive.google.com/file/d/1mF0rh_HiIk3_ziRxr5iaeXPOA4X8V3Kf/preview" frameborder="0" width="100%" height="500px" allow="autoplay"></iframe>
+
+[Google Drive](https://drive.google.com/file/d/1mF0rh_HiIk3_ziRxr5iaeXPOA4X8V3Kf)
+
+## CV
+
+<iframe src="https://drive.google.com/file/d/1G2phgZg3eY5KnSwVWA7vbZGoqyQAj8Jf/preview" frameborder="0" width="100%" height="500px" allow="autoplay"></iframe>
+
+[Google Drive](https://drive.google.com/file/d/1G2phgZg3eY5KnSwVWA7vbZGoqyQAj8Jf/preview)
